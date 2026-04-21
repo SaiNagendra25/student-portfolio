@@ -1,0 +1,1 @@
+// src/components/Hero.jsx content here
