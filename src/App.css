@@ -1,1 +1,68 @@
-/* src/App.css content here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%);
+  color: #e0e0e0;
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #00d4ff, #0099ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #00d4ff;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #b0b0b0;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #00d4ff, #0099ff);
+  color: white;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+}
