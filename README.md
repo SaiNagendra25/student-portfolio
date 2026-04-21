@@ -1,3 +1,3 @@
 # Student Portfolio
 
-This is the readme for my student portfolio.
+This is the readme for my student portfolio
